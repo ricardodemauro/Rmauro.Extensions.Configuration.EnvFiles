@@ -5,6 +5,8 @@
 
 Author: @rmauro.dev
 
+![Env File Configuration Diagram](./assets/env-cover-2.drawio.png)
+
 ## Feature List ##
 
 - [X] Create EnvFile Reader
