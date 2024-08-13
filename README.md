@@ -10,11 +10,11 @@ Author: @rmauro.dev
 
 - [X] Create EnvFile Reader
 - [X] Add Sample code usage
+- [X] Add As Configuration Provider
 
 ### Phase-2
 
-- [ ] Add Configuration Binder
-- [ ] Create and publish NuGet Package
-- [ ] Add automated to Github Actions
-- [ ] Use DotNet Nuke to build
-- [ ] Create Documentation
+- [ ] Publish as NuGet Package
+- [ ] Automated publish using Github Actions
+- [ ] Use DotNet Nuke to build and pack NuGet
+- [ ] Create Documentation 
