@@ -9,6 +9,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{1746
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnvReaderLoader", "EnvReaderLoader\EnvReaderLoader.csproj", "{BAF0F93E-2F21-47CD-8B9E-F39A0CDC32AE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Extensions.Configuration.EnvFile", "Extensions.Configuration.EnvFile\Extensions.Configuration.EnvFile.csproj", "{9345C132-3784-4ADC-AD60-331D4FE77934}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnvReader.ConfiguratonBinder.Sample", "samples\EnvReader.ConfiguratonBinder.Sample\EnvReader.ConfiguratonBinder.Sample.csproj", "{921C8BC7-2411-42AF-AB58-4EDA7292FCA4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,12 +27,21 @@ Global
 		{BAF0F93E-2F21-47CD-8B9E-F39A0CDC32AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BAF0F93E-2F21-47CD-8B9E-F39A0CDC32AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BAF0F93E-2F21-47CD-8B9E-F39A0CDC32AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9345C132-3784-4ADC-AD60-331D4FE77934}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9345C132-3784-4ADC-AD60-331D4FE77934}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9345C132-3784-4ADC-AD60-331D4FE77934}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9345C132-3784-4ADC-AD60-331D4FE77934}.Release|Any CPU.Build.0 = Release|Any CPU
+		{921C8BC7-2411-42AF-AB58-4EDA7292FCA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{921C8BC7-2411-42AF-AB58-4EDA7292FCA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{921C8BC7-2411-42AF-AB58-4EDA7292FCA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{921C8BC7-2411-42AF-AB58-4EDA7292FCA4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{0A1B4C76-ACFC-4684-BFEE-5228FB3E3CDB} = {1746B242-14D6-4768-BD85-0DB6A24B2FD3}
+		{921C8BC7-2411-42AF-AB58-4EDA7292FCA4} = {1746B242-14D6-4768-BD85-0DB6A24B2FD3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {89CBF028-FFBB-430B-B6E5-36E2F77F5FE7}
