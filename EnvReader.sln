@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35122.118
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnvReader.Sample", "samples\EnvReader.Sample\EnvReader.Sample.csproj", "{0A1B4C76-ACFC-4684-BFEE-5228FB3E3CDB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{1746B242-14D6-4768-BD85-0DB6A24B2FD3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnvReaderLoader", "EnvReaderLoader\EnvReaderLoader.csproj", "{BAF0F93E-2F21-47CD-8B9E-F39A0CDC32AE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0A1B4C76-ACFC-4684-BFEE-5228FB3E3CDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A1B4C76-ACFC-4684-BFEE-5228FB3E3CDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A1B4C76-ACFC-4684-BFEE-5228FB3E3CDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A1B4C76-ACFC-4684-BFEE-5228FB3E3CDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAF0F93E-2F21-47CD-8B9E-F39A0CDC32AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAF0F93E-2F21-47CD-8B9E-F39A0CDC32AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAF0F93E-2F21-47CD-8B9E-F39A0CDC32AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAF0F93E-2F21-47CD-8B9E-F39A0CDC32AE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0A1B4C76-ACFC-4684-BFEE-5228FB3E3CDB} = {1746B242-14D6-4768-BD85-0DB6A24B2FD3}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {89CBF028-FFBB-430B-B6E5-36E2F77F5FE7}
+	EndGlobalSection
+EndGlobal
