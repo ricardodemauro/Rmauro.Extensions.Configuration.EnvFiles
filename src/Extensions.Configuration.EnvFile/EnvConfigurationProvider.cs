@@ -3,18 +3,18 @@ using System.IO;
 
 namespace Extensions.Configuration.EnvFile
 {
-    internal class EnvConfigurationProvider : FileConfigurationProvider
+internal class EnvConfigurationProvider : FileConfigurationProvider
+{
+    public EnvConfigurationProvider(FileConfigurationSource source) : base(source)
     {
-        public EnvConfigurationProvider(FileConfigurationSource source) : base(source)
-        {
-        }
+    }
 
-        public override void Load(Stream stream)
+    public override void Load(Stream stream)
+    {
+        foreach (var item in EnvReader.Load(stream))
         {
-            foreach (var item in EnvReader.Load(stream))
-            {
-                Data[item.Key] = item.Value;
-            }
+            Data[item.Key] = item.Value;
         }
     }
+}
 }

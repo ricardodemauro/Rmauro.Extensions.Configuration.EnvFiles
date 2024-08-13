@@ -2,13 +2,13 @@
 
 namespace Extensions.Configuration.EnvFile
 {
-    public class EnvConfigurationSource : FileConfigurationSource
+public class EnvConfigurationSource : FileConfigurationSource
+{
+    public override IConfigurationProvider Build(IConfigurationBuilder builder)
     {
-        public override IConfigurationProvider Build(IConfigurationBuilder builder)
-        {
-            EnsureDefaults(builder);
+        EnsureDefaults(builder);
 
-            return new EnvConfigurationProvider(this);
-        }
+        return new EnvConfigurationProvider(this);
     }
+}
 }
