@@ -1,5 +1,6 @@
 ﻿using Extensions.Configuration.EnvFile;
 using Microsoft.Extensions.FileProviders;
+using Microsoft.Extensions.FileProviders.Physical;
 using System;
 
 namespace Microsoft.Extensions.Configuration
@@ -12,7 +13,8 @@ namespace Microsoft.Extensions.Configuration
             bool optional = false,
             bool reloadOnChange = true)
         {
-            return AddEnvFile(builder, path: path, optional: optional, reloadOnChange: reloadOnChange, provider: null);
+            var fileProvider = new PhysicalFileProvider(AppContext.BaseDirectory, ExclusionFilters.Hidden | ExclusionFilters.System);
+            return AddEnvFile(builder, path: path, optional: optional, reloadOnChange: reloadOnChange, provider: fileProvider);
         }
 
         public static IConfigurationBuilder AddEnvFile(

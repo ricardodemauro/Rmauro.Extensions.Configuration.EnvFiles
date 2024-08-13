@@ -4,7 +4,7 @@ using Microsoft.Extensions.Configuration;
 Console.WriteLine("Hello, World!");
 
 IConfiguration configuration = new ConfigurationBuilder()
-    .SetBasePath(Directory.GetCurrentDirectory())
+    //.SetBasePath(Directory.GetCurrentDirectory())
     .AddJsonFile("appsettings.json", optional: true)
     .AddEnvFile()
     .Build();
