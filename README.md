@@ -1,7 +1,7 @@
 # Demo code of Reading .env Files in C#
 
 - Blog: Reading .env Files in C# : https://rmauro.dev/read-env-file-in-csharp/
-- Blog: Load .Env file into IConfiguration Provider : https://rmauro.dev/load-dotenv-file-into-configuration-provider/
+- Blog: Load .Env file into IConfiguration Provider : https://rmauro.dev/create-configuration-provider-microsoft-extensions-configuration/
 
 Author: @rmauro.dev
 
