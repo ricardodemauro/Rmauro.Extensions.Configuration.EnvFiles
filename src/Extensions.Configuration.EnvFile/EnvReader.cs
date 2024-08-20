@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.IO;
 
-namespace Extensions.Configuration.EnvFile
+namespace Rmauro.Extensions.Configuration.Env
 {
     internal static class EnvReader
 {

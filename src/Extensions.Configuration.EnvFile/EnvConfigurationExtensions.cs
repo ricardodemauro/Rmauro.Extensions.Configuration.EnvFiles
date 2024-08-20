@@ -3,7 +3,7 @@ using Microsoft.Extensions.FileProviders;
 using Microsoft.Extensions.FileProviders.Physical;
 using System;
 
-namespace Microsoft.Extensions.Configuration
+namespace Rmauro.Extensions.Configuration.Env
 {
 public static class EnvConfigurationExtensions
 {

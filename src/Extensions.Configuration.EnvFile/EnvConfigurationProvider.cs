@@ -1,7 +1,7 @@
 ﻿using Microsoft.Extensions.Configuration;
 using System.IO;
 
-namespace Extensions.Configuration.EnvFile
+namespace Rmauro.Extensions.Configuration.Env
 {
 internal class EnvConfigurationProvider : FileConfigurationProvider
 {

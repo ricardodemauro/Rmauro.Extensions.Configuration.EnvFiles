@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.Configuration;
 
-namespace Extensions.Configuration.EnvFile
+namespace Rmauro.Extensions.Configuration.Env
 {
 public class EnvConfigurationSource : FileConfigurationSource
 {
