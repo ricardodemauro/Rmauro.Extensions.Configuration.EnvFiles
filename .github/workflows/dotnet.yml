@@ -23,12 +23,10 @@ jobs:
         dotnet-version: 8.0.x
         
     - name: Restore dependencies
-      run: dotnet restore
+      run: dotnet restore src/EnvReader.sln
       
     - name: Build
-      run: dotnet build --no-restore
-
-    
+      run: dotnet build --no-restore -c Release  src/EnvReader.sln
       
     #- name: Test
     #  run: dotnet test --no-build --verbosity normal
