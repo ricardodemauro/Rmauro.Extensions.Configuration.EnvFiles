@@ -13,7 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Extensions.Configuration.EnvFile\Extensions.Configuration.EnvFile.csproj" />
+    <ProjectReference Include="..\..\Rmauro.Extensions.Configuration.Env\Rmauro.Extensions.Configuration.Env.csproj" />
   </ItemGroup>
 
   <ItemGroup>

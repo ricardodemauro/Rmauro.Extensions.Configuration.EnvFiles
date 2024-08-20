@@ -7,9 +7,9 @@
 		<Nullable>enable</Nullable>
 	</PropertyGroup>
 
-	<ItemGroup>
-	  <ProjectReference Include="..\..\EnvFile\EnvFile.csproj" />
-	</ItemGroup>
+<ItemGroup>
+<ProjectReference Include="..\..\EnvReader\EnvReader.csproj" />
+</ItemGroup>
 
 	<ItemGroup>
 		<None Update=".env">

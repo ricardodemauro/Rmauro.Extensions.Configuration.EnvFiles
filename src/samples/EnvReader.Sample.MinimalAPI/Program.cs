@@ -1,3 +1,5 @@
+using Rmauro.Extensions.Configuration.Env;
+
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Configuration.AddEnvFile();

@@ -7,13 +7,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EnvReader.Sample", "samples
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{1746B242-14D6-4768-BD85-0DB6A24B2FD3}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Extensions.Configuration.EnvFile", "Extensions.Configuration.EnvFile\Extensions.Configuration.EnvFile.csproj", "{9345C132-3784-4ADC-AD60-331D4FE77934}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rmauro.Extensions.Configuration.Env", "Rmauro.Extensions.Configuration.Env\Rmauro.Extensions.Configuration.Env.csproj", "{9345C132-3784-4ADC-AD60-331D4FE77934}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EnvReader.ConfiguratonBinder.Sample", "samples\EnvReader.ConfiguratonBinder.Sample\EnvReader.ConfiguratonBinder.Sample.csproj", "{921C8BC7-2411-42AF-AB58-4EDA7292FCA4}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EnvFile", "EnvFile\EnvFile.csproj", "{112BF377-F2F1-478A-AB1E-222C13607D13}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EnvReader", "EnvReader\EnvReader.csproj", "{112BF377-F2F1-478A-AB1E-222C13607D13}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnvReader.Sample.MinimalAPI", "EnvReader.Sample.MinimalAPI\EnvReader.Sample.MinimalAPI.csproj", "{7EA6E89F-A871-4042-81D7-8223F482E413}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnvReader.Sample.MinimalAPI", "samples\EnvReader.Sample.MinimalAPI\EnvReader.Sample.MinimalAPI.csproj", "{7EA6E89F-A871-4042-81D7-8223F482E413}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -1,5 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using Microsoft.Extensions.Configuration;
+using Rmauro.Extensions.Configuration.Env;
 
 Console.WriteLine("Hello, World!");
 
